@@ -6,7 +6,7 @@ const Index = props => {
   return (
     <Layout location={props.location}>
       <h1>
-        Site is under construction. Check out my <Link to="/blog">blog</Link> in
+        Site is under construction. Check out my <Link to="blog">blog</Link> in
         the meantime.
       </h1>
     </Layout>

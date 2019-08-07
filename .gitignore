@@ -59,6 +59,8 @@ typings/
 
 # next.js build output
 .next
+
+# My Nonsense
 .DS_Store
-public/
+public
 .cache
