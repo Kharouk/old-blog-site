@@ -59,7 +59,7 @@ const Bio = () => {
         {/* Written by <strong>{author}</strong>. He likes dogs. And nature. And
         doubting himself. Lastly, he works for {job} as a {jobTitle}.{` `} */}
         Written by <strong>{author}</strong>. He needs a better desc from
-        graphql.
+        graphql.{" "}
         <a href={`https://twitter.com/${social.twitter}`}>
           You should follow him on Twitter
         </a>
