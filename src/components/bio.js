@@ -17,8 +17,8 @@ const Bio = () => {
       site {
         siteMetadata {
           author
-          # job
-          # jobTitles
+          job
+          jobTitle
           social {
             twitter
           }
@@ -27,12 +27,14 @@ const Bio = () => {
     }
   `)
 
-  const { author, social } = data.site.siteMetadata
+  const {
+    author, social, job, jobTitle,
+  } = data.site.siteMetadata
   return (
     <div
       style={{
         display: `flex`,
-        marginBottom: rhythm(2.5)
+        marginBottom: rhythm(2.5),
       }}
     >
       <Image
@@ -42,20 +44,16 @@ const Bio = () => {
           marginRight: rhythm(1 / 2),
           marginBottom: 0,
           minWidth: 50,
-          borderRadius: `100%`
+          borderRadius: `100%`,
         }}
         imgStyle={{
-          borderRadius: `50%`
+          borderRadius: `50%`,
         }}
       />
       <p>
-        {/* Written by <strong>{author}</strong>. He likes dogs. And nature. And
-        doubting himself. Lastly, he works for {job} as a {jobTitle}.{` `} */}
-        Written by <strong>{author}</strong>. He needs a better desc from
-        graphql.{" "}
-        <a href={`https://twitter.com/${social.twitter}`}>
-          You should follow him on Twitter
-        </a>
+        Written by <strong>{author}</strong>. He likes dogs. And nature. And doubting himself.
+        Lastly, he works for {job} as a {jobTitle}.{` `}
+        <a href={`https://twitter.com/${social.twitter}`}>You should follow him on Twitter.</a>
       </p>
     </div>
   )
