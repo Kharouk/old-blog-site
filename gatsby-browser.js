@@ -1,3 +1,3 @@
 // custom typefaces
-import "typeface-montserrat"
-import "typeface-merriweather"
+require("typeface-montserrat")
+require("typeface-merriweather")
