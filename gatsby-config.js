@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Getting it Together; Tech Industry and I`,
+    title: `Programming Love 💚`,
     author: `Alex Kharouk`,
-    description: `A full-stack developer who wants to start a podcast about web development but resorts to blogs`,
+    description: `A full-stack developer looking to share his thoughts on everything Programming.`,
     siteUrl: `https://kharo.uk`,
     social: {
       twitter: `alexkharouk`
