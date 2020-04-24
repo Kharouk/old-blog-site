@@ -28,6 +28,13 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
+        path: `${__dirname}/games`,
+        name: `games`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
         path: `${__dirname}/blog/content/assets`,
         name: `assets`,
       },
@@ -68,7 +75,7 @@ module.exports = {
       options: {
         name: `Alex Kharouk Portfolio & Blog`,
         short_name: `AK Blog`,
-        start_url: `/`,
+        start_url: `/games`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
