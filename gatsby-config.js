@@ -75,7 +75,7 @@ module.exports = {
       options: {
         name: `Alex Kharouk Portfolio & Blog`,
         short_name: `AK Blog`,
-        start_url: `/games`,
+        start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
